@@ -5,6 +5,6 @@ Admin theme for ProcessWire.
 
 Page edit screen.
 
-![alt tag](https://github.com/madebymats/CraftedTheme/blob/master/modal-ui-dialog.png)
+![alt tag](https://github.com/madebymats/CraftedTheme/blob/master/modal-dialog-ui.png)
 
 Example of modal. (You can tweak modal settings in the config file, check the config file under the wire folder for example).
