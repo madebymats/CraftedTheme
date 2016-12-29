@@ -2822,6 +2822,45 @@ ul.Inputfields #wrap_login_pass {
  * MASTHEAD
  *
  */
+
+    #masthead #topnav li.pw-dropdown ul {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    background: #FFF;
+    box-shadow: 0 4px 7px rgba(0,0,0,0.175);
+    border: 1px solid #d9e1ea;
+    border-top: none;
+    width: 100%;
+    min-width: 200px;
+    position: absolute;
+    padding: .5em 0;
+    top: 47px;
+    right: 0;
+    transition: top 250ms ease-in,opacity 250ms ease-in;
+}
+#masthead #topnav li.pw-dropdown ul.open {
+    visibility: visible !important;
+    opacity: 1 !important;
+    top: 52px !important;
+    z-index: 08 !important;
+}
+#masthead #topnav li.pw-dropdown ul li {
+    white-space: nowrap;
+    display: block;
+}
+#masthead #topnav li.pw-dropdown ul li a {
+    padding: 0.5em 1em;
+    display: block;
+    color: #354b60;
+    white-space: nowrap;
+}
+#masthead #topnav li.pw-dropdown:not(.superuser)>a:after {
+    content: "\f0d7";
+    font-family: fontAwesome;
+    color: #8d939e;
+    margin-left: 7px;
+    font-size: 11px;}
 .main-nav-toggle {
   position: absolute;
   height: 52px;
