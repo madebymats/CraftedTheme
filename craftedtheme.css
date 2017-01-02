@@ -3208,8 +3208,8 @@ ul.Inputfields #wrap_login_pass {
   #sidebar #main-nav a span {
     white-space: nowrap; }
   #sidebar #main-nav > li > a:hover {
-    color: #e2e2e2;
-    background: #242424;
+      color: #e2e2e2;
+      background: #47525e;
     }
   #sidebar #main-nav li {
     margin: 0; }
