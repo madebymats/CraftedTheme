@@ -4426,11 +4426,15 @@ body.pw-init .toggle-icon {
   border-left: 2px solid #999; 
 }
 
+#sidebar #main-nav a.open {
+    background: rgba(255, 255, 255, 0.05);
+}
+
 #sidebar #main-nav a.parent {
-    text-transform: uppercase;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    text-transform: none;
+    border-bottom: none;
     color: rgb(226, 226, 226);
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: none;
 }
 /*# sourceMappingURL=green-robot.css.map */
 
