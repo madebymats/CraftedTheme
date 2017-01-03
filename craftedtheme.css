@@ -3927,7 +3927,7 @@ ul.action-group li {
   .content .PageListMoveNote a:hover {
     /* action links hovered */
     color: #FFF !important;
-    background: #CE5643;
+    background: rgba(71, 82, 94, 0.22);
     border: none; }
   .content .PageListMoveNote {
     text-transform: lowercase;
@@ -4435,6 +4435,10 @@ body.pw-init .toggle-icon {
     border-bottom: none;
     color: rgb(226, 226, 226);
     border-top: none;
+}
+
+#content a{
+  color: #0d78f2 !important;
 }
 /*# sourceMappingURL=green-robot.css.map */
 
