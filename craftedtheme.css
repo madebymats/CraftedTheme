@@ -1576,16 +1576,17 @@ body .ui-tooltip {
   color: #FFF; }
 .content li.ui-state-default a,
 .content .ui-widget-content li.ui-state-default a {
-  color: #FFF; }
+  color: #FFF !important;
+  }
 .content li.ui-state-hover,
 .content .ui-widget-content li.ui-state-hover {
   background: none !important;
   background-color: #9C4A2B !important;
   border-color: #9C4A2B;
-  color: #FFF; }
+  color: #FFF !important; }
 .content li.ui-state-hover a,
 .content .ui-widget-content li.ui-state-hover a {
-  color: #FFF; }
+  color: #FFF !important; }
 
 .InputfieldForm .ui-accordion-header,
 .ui-accordion-header {
@@ -4438,7 +4439,14 @@ body.pw-init .toggle-icon {
 }
 
 #content a{
-  color: #0d78f2 !important;
+  color: #0d78f2;
+}
+
+.InputfieldPageAutocomplete ol li i.fa-trash {
+    position: relative;
+    top: 2px;
+    right: 3px;
+    color: white;
 }
 /*# sourceMappingURL=green-robot.css.map */
 
